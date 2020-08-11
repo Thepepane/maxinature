@@ -1,0 +1,83 @@
+legend
+{ color: green ;
+ }
+a:link
+{
+    color: darksalmon;
+    text-decoration: none;
+}
+a:hover
+{
+    color: blue;
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
+a:visited
+{
+    color: rgb(226, 64, 43);
+}
+h3
+        {color: black;
+        text-decoration-line: underline;
+        font-size: medium;
+        }
+span
+    {
+            position: absolute;
+            top: 0px;
+            left: 300px;
+            right: 10px;
+            bottom: 425px;
+            word-spacing: 1.89em;
+            font-size: 1.2em;
+            align-items: flex-end;
+    }
+    header{
+        position: fixed;
+        background: khaki;
+        top: 0px;
+        bottom: 500px;
+        left: 0px;
+        right: 0px;
+        height: 70px;
+        z-index: 1;
+    }
+    
+hr[width="75%"]{color: black;}
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+footer
+{
+    text-align: center;
+    padding: 0.5px;
+    background-color: sandybrown;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+footer .aligner
+{
+    display: inline-block;
+}
+footer div
+{
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0em;
+}
+#logo{
+    position: absolute;
+    right: 20em;
+    top: 0em;
+    left: 0em;
+    bottom: 0;
+}
+header+div:nth-of-type(1)
+{
+    margin-top: 70px;
+}

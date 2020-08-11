@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez nous//MAXINATURE</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+        
+        legend   p
+        {
+            margin-top: 10em;
+            margin-bottom: 0;
+            border: 0em;
+        }
+        div
+        {
+            margin-left: 0em;
+            margin-right: 0em;
+        }
+        form{
+            width: 75%;
+        }
+        .couleurfond{
+            background-image: url("images/ananas.jpg");
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./images/logo.png" alt="Logo de MaxiNature" width="100" height="70" id="logo"></a>
+        <span align="right">
+            <a href="./index.html">accueil</a>
+            <a href="./activites.html">activités</a>
+            <a href="./nosproduits.html">produits</a>
+            <a href="./apropos.html">apropos</a>
+            <a href="./faq.html">FAQ</a>
+        </span>
+    </header>
+    <div class="couleurfond">
+    <h1 style="text-align: center;">Contactez nous</h1>
+        <p style="font-size: 1.1em;" > Vous souhaitez avoir plus de rensignement sur nous ou sur nos activités? <br>
+    Vous voudriez en savoir plus sur nos produits? <br>
+    Nous vous invitons alors à prendre contact avec la structure en remplissant le formulaire ci-dessous.
+        </p>
+    <form name="Formulaire de contact" action="" method="post">
+        <fieldset>
+            <legend>Coordonnées personnelles</legend>
+            <p>Civilité:
+                 <input type="radio" name="Civilité" id="Mr" value="0" checked="checked"><label for="Mr">Mr </label>
+                 <input type="radio" name="Civilité" id="Mme" value="1"><label for="Mme"> Mme </label>
+                 <input type="radio" name="Civilité" id="Mlle" value="2"><label for="Mlle"> Mlle </label></p>
+            <p>Prénom <input type="text" required="required"> </p>
+            <p>Nom <input type="text" required="required"></p>
+            <p>Adresse e-mail <input type="text" required="required"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Pays</legend>
+            <p>Choisissez votre pays
+                 <select name="Pays" >
+                     <option value="0">Afrique du Sud</option>
+                     <option value="1">Algérie</option>
+                     <option value="2">Angola</option>
+                     <option value="3" selected="selected">Bénin</option>
+                     <option value="4">Botswana</option>
+                     <option value="5">Burkina Faso</option>
+                     <option value="6">Burundi</option>
+                     <option value="7">Cameroun</option>
+                     <option value="8">Cap Vert</option>
+                     <option value="9">Rép. Centrafricaine</option>
+                     <option value="10">Comores</option>
+                     <option value="11">Rép. du Congo</option>
+                     <option value="12">Rép. Démocratique du Congo</option>
+                     <option value="13">Côte d'Ivoire</option>
+                     <option value="14">Djibouti</option>
+                     <option value="15">Égypte</option>
+                     <option value="16">Érythrée</option>
+                     <option value="17">Éthiopie</option>
+                     <option value="18">Gabon</option>
+                     <option value="19">Gambie</option>
+                     <option value="20">Ghana</option>
+                     <option value="21">Guinée</option>
+                     <option value="22">Guinée Bissau</option>
+                     <option value="23">Guinée Équatorial</option>
+                     <option value="24">Kenya</option>
+                     <option value="25">Lesotho</option>
+                     <option value="26">Liberia</option>
+                     <option value="27">Libye</option>
+                     <option value="28">Madagascar</option>
+                     <option value="29">Malawi</option>
+                     <option value="30">Mali</option>
+                     <option value="31">Maroc</option>
+                     <option value="32">Maurice</option>
+                     <option value="33">Mauritanie</option>
+                     <option value="34">Mozambique</option>
+                     <option value="35">Namibie</option>
+                     <option value="36">Niger</option>
+                     <option value="37">Nigeria</option>
+                     <option value="38">Ouganda</option>
+                     <option value="39">Rwanda</option>
+                     <option value="40">Sao Tomé-et-Principe</option>
+                     <option value="41">Sénégal</option>
+                     <option value="42">Seychelles</option>
+                     <option value="43">Sierra Leone</option>
+                     <option value="44">Somalie</option>
+                     <option value="45">Soudan</option>
+                     <option value="46">Soudan du Sud</option>
+                     <option value="47">Eswatini</option>
+                     <option value="48">Tanzanie</option>
+                     <option value="49">Tchad</option>
+                     <option value="50">Togo</option>
+                     <option value="51">Tunisie</option>
+                     <option value="52">Zambie</option>
+                     <option value="53">Zimbabwe</option>
+                 </select>
+            </p>
+            <p>
+                Autre <input type="text">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Téléphone</legend>
+            <p>Mobile <input type="text"></p>
+            <p>Fixe <input type="text"></p>
+        </fieldset>
+        <fieldset>
+            <legend>Votre message</legend>
+            <textarea name="Votre message" id="" cols="50" rows="5" maxlength="500">Vous pouvez saisir un message ici</textarea>
+        </fieldset> 
+        <p>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Annuler">
+           </p>  
+    </form>
+</div>
+    
+    <footer>
+        <div class="aligner">
+            <h3>Adresse</h3>
+              <p>Djadjo/ Abomey-Calavi (Bénin)</p> <br>
+        </div>
+        <div class="aligner">    
+            <h3>E-mail</h3>
+               <p> <a style="text-decoration: none; color: white; text-transform: none;" href="mailto:maxinature02@gmail.com"><strong> maxinature02@gmail.com </strong></a> </p> <br>
+        </div>
+        <div class="aligner">
+            <h3>Téléphone</h3>
+                <p>(+229) 97 53 36 52/99 95 99 68</p> <br>
+        </div>
+        <div class="aligner">
+            <h3>Horaires d'ouverture</h3>         
+                <p> Du Lundi au Dimanche : 08H à 20H 
+                </p> <br>
+        </div>
+    <hr width="75%">
+        <p> © 2020 MAXINATURE || Tous Droits Réservés </p> 
+    </footer>
+
+</body>
+</html>
